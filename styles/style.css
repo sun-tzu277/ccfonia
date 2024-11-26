@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown
+}
+
+.containerTitle {
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown
+}
+
+ #container {
+    color: rgb(2, 2, 2);
+    text-align: center;
+    margin: 20px auto 20px;
+    border: 1px solid black;
+    width: 500px;
+    height: fit-content;
+ }
