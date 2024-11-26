@@ -12,21 +12,39 @@ body {
     text-align: center;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: brown
+    color: brown;
 }
 
 .containerTitle {
     text-align: center;
     padding: 50px 0 0 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: brown
+    color: brown;
 }
 
- #container {
+#container {
     color: rgb(2, 2, 2);
     text-align: center;
-    margin: 20px auto 20px;
+    margin: 20px auto;
     border: 1px solid black;
     width: 500px;
     height: fit-content;
- }
+}
+
+/* Adaptación para teléfonos */
+@media (max-width: 768px) {
+    #container {
+        width: 90%; /* Cambiamos el ancho para que ocupe el 90% del dispositivo */
+        margin: 10px auto; /* Ajustamos márgenes para mejor aspecto */
+    }
+
+    .title {
+        font-size: 1.5rem; /* Ajustamos el tamaño de fuente */
+        padding: 15px;
+    }
+
+    .containerTitle {
+        padding: 30px 0 0 0;
+        font-size: 1.2rem;
+    }
+}
