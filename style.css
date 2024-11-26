@@ -34,12 +34,12 @@ body {
 /* Adaptación para teléfonos */
 @media (max-width: 768px) {
     #container {
-        width: 90%; /* Cambiamos el ancho para que ocupe el 90% del dispositivo */
-        margin: 10px auto; /* Ajustamos márgenes para mejor aspecto */
+        width: 90%; 
+        margin: 10px auto; 
     }
 
     .title {
-        font-size: 1.5rem; /* Ajustamos el tamaño de fuente */
+        font-size: 1.5rem; 
         padding: 15px;
     }
 
